@@ -16,6 +16,7 @@ $ git clone git@github.com:JohnVictor2017/oracia.git
 $ cd oracia
 $ composer install
 $ cp .env.example .env
+$ php artisan key:generate
 $ php artisan migrate
 ```
 
