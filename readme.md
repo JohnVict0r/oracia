@@ -7,65 +7,74 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
-## About Laravel
+## Configuração
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+Clone o projeto e execute os seguintes comandos:
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+```shell
+$ git clone git@github.com:JohnVictor2017/oracia.git
+$ cd oracia
+$ composer install
+$ cp .env.example .env
+$ php artisan migrate
+```
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+Altere o arquivo .env com suas configurações locais, como por exemplo, as informações do banco de dados (DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD, etc)
+Lembre-se se alterar o DB_HOST para 127.0.0.1
 
-## Learning Laravel
+Inicie o servidor e acesse via http://127.0.0.1:3333 🤞🙏⏱👍
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+```
+$ php artisan serve
+```
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 1400 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+### Colaboradores
 
-## Laravel Sponsors
-
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
-
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[British Software Development](https://www.britishsoftware.co)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- [UserInsights](https://userinsights.com)
-- [Fragrantica](https://www.fragrantica.com)
-- [SOFTonSOFA](https://softonsofa.com/)
-- [User10](https://user10.com)
-- [Soumettre.fr](https://soumettre.fr/)
-- [CodeBrisk](https://codebrisk.com)
-- [1Forge](https://1forge.com)
-- [TECPRESSO](https://tecpresso.co.jp/)
-- [Runtime Converter](http://runtimeconverter.com/)
-- [WebL'Agence](https://weblagence.com/)
-- [Invoice Ninja](https://www.invoiceninja.com)
-- [iMi digital](https://www.imi-digital.de/)
-- [Earthlink](https://www.earthlink.ro/)
-- [Steadfast Collective](https://steadfastcollective.com/)
-- [We Are The Robots Inc.](https://watr.mx/)
-- [Understand.io](https://www.understand.io/)
-- [Abdel Elrafa](https://abdelelrafa.com)
-- [Hyper Host](https://hyper.host)
-
-## Contributing
-
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
-
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+<hr>
+<table>
+  <tr>
+    <td align="center">
+      <a href="http://github.com/johnvictor2017">
+        <img src="https://avatars0.githubusercontent.com/u/30505330?s=400&v=4" width="100px;" alt="John Victor"/>
+        <br />
+        <sub><b>John Victor</b></sub>
+      </a><br />
+      <a href="https://github.com/mb-neto/oracia/commits?author=johnvictor2017" title="Code">💻</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/Iolch">
+        <img src="https://avatars0.githubusercontent.com/u/42042614?s=400&v=4" width="100px;" alt="Iolanda"/>
+        <br />
+        <sub><b>Iolanda</b></sub>
+      </a><br />
+      <a href="https://github.com/mb-neto/oracia/commits?author=Iolch" title="Code">💻</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/SrtaEnne">
+        <img src="https://avatars3.githubusercontent.com/u/26802307?s=400&v=4" width="100px;" alt="Iolanda"/>
+        <br />
+        <sub><b>Nátaly Enne</b></sub>
+      </a><br />
+      <a href="https://github.com/mb-neto/oracia/commits?author=SrtaEnne" title="Code">💻</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/mb-neto">
+        <img src="https://avatars0.githubusercontent.com/u/41993863?s=400&v=4" width="100px;" alt="Manoel Neto"/>
+        <br />
+        <sub><b>Manoel Neto</b></sub>
+      </a><br />
+      <a href="https://github.com/mb-neto/oracia/commits?author=mb-neto" title="Code">💻</a>
+    </td>
+    <td align="center">
+      <a href="https://github.com/isaacgdo">
+        <img src="https://avatars1.githubusercontent.com/u/20069403?s=400&v=4" width="100px;" alt="Manoel Neto"/>
+        <br />
+        <sub><b>Isaac Gomes</b></sub>
+      </a><br />
+      <a href="https://github.com/mb-neto/oracia/commits?author=isaacgdo" title="Code">💻</a>
+    </td>
+  </tr>
+</table>
 
 ## License
 
