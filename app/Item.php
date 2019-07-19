@@ -5,12 +5,12 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 
-class Licitation extends Model
+class Item extends Model
 {
     use SoftDeletes;
 
     protected $fillable = [
-        'licitation_code', 'description', 'scope'
+        'licitation_id', 'description', 'order', 'measure','quantity', 'unity_value'
     ];
 
     protected $dates = ['deleted_at'];

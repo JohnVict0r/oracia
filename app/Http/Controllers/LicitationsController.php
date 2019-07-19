@@ -7,7 +7,6 @@ use Illuminate\Support\Facades\Auth;
 use App\Licitation;
 use App\Http\Requests\StoreLicitation;
 use App\Http\Requests\UpdateLicitation;
-
 class LicitationsController extends Controller
 {
     /**
