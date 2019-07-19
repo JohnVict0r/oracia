@@ -12,7 +12,7 @@
 Clone o projeto e execute os seguintes comandos:
 
 ```shell
-$ git clone git@github.com:JohnVictor2017/start-tm-ws.git
+$ git clone git@github.com:JohnVictor2017/oracia.git
 $ cd oracia
 $ composer install
 $ cp .env.example .env
