@@ -24,7 +24,7 @@ class StoreLicitation extends FormRequest
     public function rules()
     {
         return [
-            'licitation_id' => 'required',
+            'licitation_code' => 'required',
             'description' => 'required',
             'scope' => 'required',
         ];
@@ -38,7 +38,7 @@ class StoreLicitation extends FormRequest
     public function messages()
     {
         return [
-            'licitation_id.required' => __('required', ['field' => __('licitation_id')]),
+            'licitation_code.required' => __('required', ['field' => __('licitation_code')]),
             'description.required' => __('required', ['field' => __('description')]),
             'scope.required' => __('required', ['field' => __('scope')]),
         ];

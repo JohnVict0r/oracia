@@ -24,7 +24,7 @@ class UpdateLicitation extends FormRequest
     public function rules()
     {
         return [
-            'licitation_id' => 'required',
+            'licitation_code' => 'required',
             'description' => 'required',
             'scope' => 'required',
         ];

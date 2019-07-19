@@ -1,10 +1,10 @@
 <div class="form-group">
-    <label for="licitation_id">Código Licitação</label>
-    <input name="licitation_id" type="text" class="form-control{{ $errors->has('licitation_id') ? ' is-invalid' : '' }}" id="licitation_id" placeholder="@lang('common.licitation_id')" value="{{ isset($licitation)?$licitation->licitation_id:old('licitation_id') }}">
+    <label for="licitation_code">Código Licitação</label>
+    <input name="licitation_code" type="text" class="form-control{{ $errors->has('licitation_code') ? ' is-invalid' : '' }}" id="licitation_code" placeholder="@lang('common.licitation_code')" value="{{ isset($licitation)?$licitation->licitation_code:old('licitation_code') }}">
 
-    @if ($errors->has('licitation_id'))
+    @if ($errors->has('licitation_code'))
         <span class="invalid-feedback" paper="alert">
-            <strong>{{ $errors->first('licitation_id') }}</strong>
+            <strong>{{ $errors->first('licitation_code') }}</strong>
         </span>
     @endif
 </div>

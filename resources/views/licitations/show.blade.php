@@ -5,7 +5,7 @@
         <div class="col-md-12">
             <div class="card">
                 <div class="card-header">{{$licitation->scope}}</div>
-                <h3>{{$licitation->licitation_id}}</h3>
+                <h3>{{$licitation->licitation_code}}</h3>
                 <div class="card-body">
                     {{ $licitation->description }}
                 </div>

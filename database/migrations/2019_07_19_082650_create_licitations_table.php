@@ -14,8 +14,8 @@ class CreateLicitationsTable extends Migration
     public function up()
     {
         Schema::create('licitations', function (Blueprint $table) {
-            $table->bigIncrements('id');
-            $table->string('licitation_id');
+            $table->increments('id');
+            $table->string('licitation_code');
             $table->text('description');
             $table->string('scope');
             $table->timestamps();
